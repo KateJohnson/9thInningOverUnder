@@ -58,4 +58,4 @@ for (i in 1:nrow(results)) {
   }
 }
 
-write.csv(results, "/Users/katejohnson/Desktop/9thInningOverUnder/Simulation_Results")
+write.csv(results, "/Users/katejohnson/Desktop/9thInningOverUnder/Simulation_Results.csv")
