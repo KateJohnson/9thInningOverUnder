@@ -1,0 +1,68 @@
+import random
+
+Away_team = "Away"
+Home_team = "Home"
+
+Home_team_score = 3
+Away_team_score = 3
+Under = 0
+Over = 0 
+
+
+for i in range (1000000):
+	
+	
+	counter = 9
+	
+	while Home_teamscore = Away_team_score:
+		away_score = random.randint(1,100000)
+		home_score = random.randint(1,100000)
+		
+		if Away_score > 73200 and < 87850:
+			away_team_score +=1
+		
+		if Away_score > 87850 and < 94522:
+			away_team_score +=2
+			
+		if Away_score > 94522 and < 97592:
+			away_team_score +=3
+			
+		if Away_score > 97592 and < 98964:
+			away_team_score +=4
+			
+		if Away_score > 98964 and < 99545:
+			away_team_score +=5
+		
+		if Away_score > 99545 and < 99800:
+			away_team_score +=6
+		
+		if Away_score > 99800 and < 99900:
+			away_team_score +=7
+			
+		if Away_score > 99900 and < 100000:
+			away_team_score +=8
+			
+			
+		if Home_score > 73200 and < 95000:
+			home_team_score +=1
+		
+		if Home_score > 95000 and < 98000:
+			home_team_score +=2
+			
+		if Home_score > 98000 and < 99000:
+			home_team_score +=3
+			
+		if Home_score > 99000 and < 10000:
+			home_team_score +=4
+		
+				
+		
+		if (home_team_score + away_team_score) < 7.5:
+			Under += 1
+			
+		if (home_team_score + away_team_score) > 7.5:
+			Over += 1
+			
+		if home_team_score = away_team_score:
+			counter += 1
+
